@@ -15,8 +15,6 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/gh-release:1.0.23" \
-    --option repo='buildkite/cli' --option binaryNames='cli-linux-amd64' --option version="$VERSION"
-    
-
+    --option repo='buildkite/cli' --option binaryNames='bkcli' --option version="2.0.0"
 
 echo 'Done!'

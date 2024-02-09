@@ -2,14 +2,15 @@
     "id": "buildkite-cli",
     "version": "1.0.0",
     "name": "Buildkite CLI (via Github Releases)",
-    "documentationURL": "http://github.com/devcontainers-contrib/features/tree/main/src/buildkite-cli",
+    "documentationURL": "https://github.com/devcontainers-contrib/features/tree/main/src/buildkite-cli",
     "description": "A command line interface for Buildkite.",
     "options": {
         "version": {
             "default": "latest",
             "description": "Select the version to install.",
             "proposals": [
-                "latest"
+                "latest",
+                "2.0.0"
             ],
             "type": "string"
         }

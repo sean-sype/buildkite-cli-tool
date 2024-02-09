@@ -1,6 +1,3 @@
-
-set -e
-
 . ./library_scripts.sh
 
 # nanolayer is a cli utility which keeps container layers as small as possible

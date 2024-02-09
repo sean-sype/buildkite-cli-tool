@@ -6,10 +6,9 @@
     "description": "A command line interface for Buildkite.",
     "options": {
         "version": {
-            "default": "latest",
+            "default": "2.0.0",
             "description": "Select the version to install.",
             "proposals": [
-                "latest",
                 "2.0.0"
             ],
             "type": "string"

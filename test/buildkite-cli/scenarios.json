@@ -1,8 +1,14 @@
 {
-    "test": {
+    "test_defaults_debian": {
         "image": "mcr.microsoft.com/devcontainers/base:debian",
         "features": {
-            "buildkite-cli": {}
+            "gh-release": {
+                "version": "latest",
+                "repo": "buildkite/cli",
+                "binaryNames": "cli-darwin-amd64,cli-darwin-arm64,cli-linux-amd64,cli-linux-arm64,cli-windows-amd64",
+                "assetRegex": "cli-(darwin|linux|windows)-(amd64|arm64)",
+                "additionalFlags": "--no-filter-assets-by-platform"
+            }
         }
     }
-}
+},

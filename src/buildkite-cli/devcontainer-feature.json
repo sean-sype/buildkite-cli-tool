@@ -72,7 +72,6 @@
             "type": "string"
         }
     },
-    },
     "installsAfter": [
         "ghcr.io/devcontainers-contrib/features/gh-release"
     ]
